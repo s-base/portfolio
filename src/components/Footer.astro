@@ -1,23 +1,26 @@
 ---
 import Icon from './Icon.astro'
+
+import { socials, username } from '../constants'
+
 const currentYear = new Date().getFullYear()
 ---
 
 <footer>
   <div class='group'>
     <p>
-      Designed by Jeanine White & Developed with <a href='https://astro.build/'
-        >Astro</a
-      >
+      Designed by Jeanine White & Developed with <a href='https://astro.build/'>Astro</a>
       <Icon icon='rocket-launch' size='1.2em' />
     </p>
-    <p>&copy; {currentYear} Sofia Bautista-Sepulveda</p>
+    <p>©️ {currentYear} {username}</p>
   </div>
+
   <p class='socials'>
-    <a href='https://instagram.com/sofiabase'>Instagram</a>
-    <a href='https://linkedin.com/sofiabase§'>Linkedin</a>
+    <a href={socials.instagram.url}>{socials.instagram.name}</a>
+    <a href={socials.linkedin.url}>{socials.linkedin.name}</a>
   </p>
 </footer>
+
 <style>
   footer {
     display: flex;
