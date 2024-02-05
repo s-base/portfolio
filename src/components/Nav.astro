@@ -3,6 +3,8 @@ import Icon from './Icon.astro'
 import ThemeToggle from './ThemeToggle.astro'
 import type { iconPaths } from './IconPaths'
 
+import { socials, username } from '../constants'
+
 /** Main menu items */
 const textLinks: { label: string; href: string }[] = [
   { label: 'Home', href: '/' },
@@ -16,16 +18,8 @@ const iconLinks: {
   href: string
   icon: keyof typeof iconPaths
 }[] = [
-  { label: 'Twitter', href: 'https://twitter.com/me', icon: 'twitter-logo' },
-  { label: 'Twitch', href: 'https://twitch.tv/me', icon: 'twitch-logo' },
-  { label: 'GitHub', href: 'https://github.com/me', icon: 'github-logo' },
-  { label: 'CodePen', href: 'https://codepen.io/me', icon: 'codepen-logo' },
-  { label: 'dribbble', href: 'https://dribbble.com/me', icon: 'dribbble-logo' },
-  {
-    label: 'YouTube',
-    href: 'https://www.youtube.com/@me/',
-    icon: 'youtube-logo'
-  }
+  { label: socials.instagram.name, href: socials.instagram.url, icon: 'instagram-logo' },
+  { label: socials.linkedin.name, href: socials.linkedin.url, icon: 'linkedin-logo' },
 ]
 ---
 
@@ -38,8 +32,9 @@ const iconLinks: {
         size='1.6em'
         gradient
       />
-      Sofia Bautista-Sepulveda
+      {username}
     </a>
+
     <menu-button>
       <template>
         <button class='menu-button' aria-expanded='false'>
@@ -49,6 +44,7 @@ const iconLinks: {
       </template>
     </menu-button>
   </div>
+
   <noscript>
     <ul class='nav-items'>
       {
@@ -73,6 +69,7 @@ const iconLinks: {
       }
     </ul>
   </noscript>
+
   <noscript>
     <div class='menu-footer'>
       <div class='socials'>
@@ -87,6 +84,7 @@ const iconLinks: {
       </div>
     </div>
   </noscript>
+
   <div id='menu-content' hidden>
     <ul class='nav-items'>
       {
@@ -110,6 +108,7 @@ const iconLinks: {
         ))
       }
     </ul>
+
     <div class='menu-footer'>
       <div class='socials'>
         {

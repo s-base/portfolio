@@ -7,6 +7,7 @@ import ContactCTA from '../components/ContactCTA.astro'
 import PortfolioPreview from '../components/PortfolioPreview.astro'
 import Hero from '../components/Hero.astro'
 import Grid from '../components/Grid.astro'
+import { username } from '../constants'
 
 const projects = (await getCollection('work')).sort(
   (a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf()
@@ -14,8 +15,8 @@ const projects = (await getCollection('work')).sort(
 ---
 
 <BaseLayout
-  title='My Work | Sofia Bautista-Sepulveda'
-  description="Learn about Sofia Bautista-Sepulveda's most recent projects"
+  description=`Learn about ${username} most recent projects`
+  title=`My Work | ${username}`
 >
   <div class='stack gap-20'>
     <main class='wrapper stack gap-8'>
