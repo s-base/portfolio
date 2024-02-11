@@ -160,6 +160,10 @@ a {
   color: var(--link-color);
 }
 
+p {
+  text-wrap: balance;
+}
+
 h1,
 h2,
 h3,
@@ -169,6 +173,7 @@ h5 {
   font-family: var(--font-brand);
   font-weight: 600;
   color: var(--gray-100);
+  text-wrap: pretty;
 }
 
 h1 {

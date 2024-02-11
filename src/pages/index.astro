@@ -33,9 +33,9 @@ const projects = (await getCollection('work'))
           align='start'
         >
           <div class='roles'>
-            <Pill><Icon icon='code' size='1.33em' />Artist</Pill>
-            <Pill><Icon icon='microphone-stage' size='1.33em' />Animator</Pill>
-            <Pill><Icon icon='pencil-line' size='1.33em' />Writer</Pill>
+            <Pill><Icon icon='palette' size='1.33em' />Artist</Pill>
+            <Pill><Icon icon='feather' size='1.33em' />2D/3D Animator in progress</Pill>
+            <Pill><Icon icon='pencilLine' size='1.33em' />Writer</Pill>
           </div>
         </Hero>
 
@@ -55,8 +55,7 @@ const projects = (await getCollection('work'))
         <header class='section-header stack gap-2 lg:gap-4'>
           <h3>Selected Work</h3>
           <p>
-            Take a look below at some of my featured work for clients from the
-            past few years.
+            Take a look below at some of my featured work from the past few years.
           </p>
         </header>
 
@@ -75,7 +74,7 @@ const projects = (await getCollection('work'))
         <div class='cta'>
           <CallToAction href='/work/'>
             View All
-            <Icon icon='arrow-right' size='1.2em' />
+            <Icon icon='arrowRight' size='1.2em' />
           </CallToAction>
         </div>
       </section>
@@ -94,9 +93,6 @@ const projects = (await getCollection('work'))
             {
               [
                 'Medium',
-                'BuzzFeed',
-                'The Next Web',
-                'awwwards.',
                 'TechCrunch'
               ].map(brand => (
                 <li class='mention-card'>
