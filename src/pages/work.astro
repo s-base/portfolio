@@ -9,8 +9,8 @@ import Hero from '../components/Hero.astro'
 import Grid from '../components/Grid.astro'
 import { username } from '../constants'
 
-// const projects = (await getCollection('work'))
-//   .sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf())
+const projects = (await getCollection('work'))
+  .filter(project => project.data.featured)
 ---
 
 <BaseLayout
@@ -25,15 +25,15 @@ import { username } from '../constants'
         align='start'
       />
 
-      <!-- <Grid variant='offset'>
+      <Grid variant='offset'>
         {
           projects.map(project => (
             <li>
-              <PortfolioPreview project={project} />
+              <PortfolioPreview project={project} isMainSection={true}/>
             </li>
           ))
         }
-      </Grid> -->
+      </Grid>
     </main>
     <ContactCTA />
   </div>

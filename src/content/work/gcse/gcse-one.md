@@ -1,13 +1,14 @@
 ---
-title: Digital Two
-publishDate: 2020-03-04 00:00:00
-img: /assets/stock-3.jpg
-img_alt: Pearls of silky soft white cotton, bubble up under vibrant lighting
+featured: true
+title: GCSE test
+publishDate: 2019-12-01 00:00:00
+img: /assets/stock-2.jpg
+img_alt: A bright pink sheet of paper used to wrap flowers curves in front of rich blue background
 description: |
-  We developed a virtual showcase for the softest bedding imaginable.
+  We paired with a cutting-edge music API and a team of horticulturalists
+  to build AI-generated playlists that maximize houseplant health.
 tags:
-  - Digital Art
-  - Feelings
+  - GCSE
 ---
 
 ## Level-two heading

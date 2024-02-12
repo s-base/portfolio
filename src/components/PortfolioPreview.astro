@@ -2,14 +2,18 @@
 import type { CollectionEntry } from 'astro:content'
 
 interface Props {
+  isMainSection?: boolean
   project: CollectionEntry<'work'>
 }
 
 const { data, slug } = Astro.props.project
+const isMainSection = Astro.props.isMainSection || false
+const parsedSlug = isMainSection ? slug.split('/').at(0) : slug
+const parsedTitle = isMainSection ? data.tags[0].split(',')[0] : data.title
 ---
 
-<a class='card' href={`/work/${slug}`}>
-  <span class='title'>{data.title}</span>
+<a class='card' href={`/work/${parsedSlug}`}>
+  <span class='title'>{parsedTitle}</span>
   <img
     src={data.img}
     alt={data.img_alt || ''}
