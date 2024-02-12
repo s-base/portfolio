@@ -1,0 +1,42 @@
+---
+import { getCollection } from 'astro:content'
+
+import BaseLayout from '../../../layouts/BaseLayout.astro'
+
+import ContactCTA from '../../../components/ContactCTA.astro'
+import PortfolioPreview from '../../../components/PortfolioPreview.astro'
+import Hero from '../../../components/Hero.astro'
+import Grid from '../../../components/Grid.astro'
+import { username } from '../../../constants'
+
+const sectionTitle = 'Photography'
+const projects = (await getCollection('work'))
+  .filter(project => project.data.tags.includes(sectionTitle))
+  .sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf())
+---
+
+<BaseLayout
+  description=`Learn about ${username} most recent projects`
+  title=`${sectionTitle} | ${username}`
+>
+  <div class='stack gap-20'>
+    <main class='wrapper stack gap-8'>
+      <Hero
+        title={sectionTitle}
+        tagline=`These are my projects related to ${sectionTitle}. I hope you like them! 📸`
+        align='start'
+      />
+
+      <Grid variant='offset'>
+        {
+          projects.map(project => (
+            <li>
+              <PortfolioPreview project={project} />
+            </li>
+          ))
+        }
+      </Grid>
+    </main>
+    <ContactCTA />
+  </div>
+</BaseLayout>
