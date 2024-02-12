@@ -4,12 +4,13 @@ export const collections = {
   work: defineCollection({
     type: 'content',
     schema: z.object({
-      title: z.string(),
       description: z.string(),
+      featured: z.boolean().optional(),
+      img_alt: z.string().optional(),
+      img: z.string(),
       publishDate: z.coerce.date(),
       tags: z.array(z.string()),
-      img: z.string(),
-      img_alt: z.string().optional()
+      title: z.string(),
     })
   })
 }

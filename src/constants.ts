@@ -14,4 +14,4 @@ export const socials: { [key: string]: Social } = {
   }
 }
 
-export const username: string = 'Sofia B-S'
+export const username: string = 'Sofia'
