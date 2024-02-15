@@ -1,6 +1,6 @@
 ---
 import { getCollection } from 'astro:content'
-import { username } from '../constants'
+import { assets, urls, username } from '../constants'
 
 // Layout import — provides basic page elements: <head>, <nav>, <footer> etc.
 import BaseLayout from '../layouts/BaseLayout.astro'
@@ -41,7 +41,7 @@ const projects = (await getCollection('work'))
           alt=`${username} portrait`
           width='480'
           height='620'
-          src='/assets/portrait.jpg'
+          src=`${assets}/portrait.jpg`
         />
       </header>
     </div>
@@ -68,7 +68,7 @@ const projects = (await getCollection('work'))
         </div>
 
         <div class='cta'>
-          <CallToAction href='/work/'>
+          <CallToAction href={urls.work}>
             View All
             <Icon icon='arrowRight' size='1.2em' />
           </CallToAction>

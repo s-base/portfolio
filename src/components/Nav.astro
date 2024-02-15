@@ -3,13 +3,13 @@ import Icon from './Icon.astro'
 import ThemeToggle from './ThemeToggle.astro'
 import type { iconPaths } from './IconPaths'
 
-import { socials, username } from '../constants'
+import { socials, urls, username } from '../constants'
 
 /** Main menu items */
 const textLinks: { label: string; href: string }[] = [
-  { label: 'Home', href: '/' },
-  { label: 'Work', href: '/work/' },
-  { label: 'About', href: '/about/' }
+  { label: 'Home', href: urls.home },
+  { label: 'Work', href: urls.work },
+  { label: 'About', href: urls.about }
 ]
 
 /** Icon links to social media — edit these with links to your profiles! */
@@ -25,7 +25,7 @@ const iconLinks: {
 
 <nav>
   <div class='menu-header'>
-    <a href='/' class='site-title'>
+    <a href={urls.home} class='site-title'>
       <Icon
         icon='palette'
         color='var(--accent-regular)'
@@ -97,7 +97,7 @@ const iconLinks: {
                 {
                   active:
                     Astro.url.pathname === href ||
-                    (href !== '/' && Astro.url.pathname.startsWith(href))
+                    (href !== urls.home && Astro.url.pathname.startsWith(href))
                 }
               ]}
               href={href}

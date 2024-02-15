@@ -1,11 +1,13 @@
 ---
+import { email } from '../constants'
+
 import CallToAction from './CallToAction.astro'
 import Icon from './Icon.astro'
 ---
 
 <aside>
   <h2>Interested in working together?</h2>
-  <CallToAction href='mailto:s.bautista.sepulveda+portfolio@gmail.com'>
+  <CallToAction href=`mailto:${email}`>
     Send Me a Message
     <Icon icon='paperPlane' size='1.2em' />
   </CallToAction>

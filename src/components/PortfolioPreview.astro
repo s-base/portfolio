@@ -1,4 +1,5 @@
 ---
+import { urls } from '../constants'
 import type { CollectionEntry } from 'astro:content'
 
 interface Props {
@@ -12,7 +13,7 @@ const parsedSlug = isMainSection ? slug.split('/').at(0) : slug
 const parsedTitle = isMainSection ? data.tags[0].split(',')[0] : data.title
 ---
 
-<a class='card' href={`/work/${parsedSlug}`}>
+<a class='card' href={`${urls.work}${parsedSlug}`}>
   <span class='title'>{parsedTitle}</span>
   <img
     src={data.img}

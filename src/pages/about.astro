@@ -1,9 +1,9 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro'
+import { assets, username } from '../constants'
 
 import ContactCTA from '../components/ContactCTA.astro'
 import Hero from '../components/Hero.astro'
-import { username } from '../constants'
 ---
 
 <BaseLayout
@@ -19,7 +19,7 @@ import { username } from '../constants'
         <img
           width='1553'
           height='873'
-          src='/assets/portrait.jpg'
+          src=`${assets}/portrait.jpg`
           alt=`${username} creating art work`
         />
       </Hero>
