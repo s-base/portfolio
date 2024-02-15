@@ -6,11 +6,7 @@ interface Social {
 export const socials: { [key: string]: Social } = {
   instagram: {
     name: 'Instagram',
-    url: 'https://www.instagram.com/sofiabs/',
-  },
-  linkedin: {
-    name: 'Linkedin',
-    url: 'https://www.linkedin.com/sofiabs/',
+    url: 'https://www.instagram.com/th1i.bea/',
   }
 }
 export const base: string = '/portfolio'

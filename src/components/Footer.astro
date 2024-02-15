@@ -12,12 +12,17 @@ const currentYear = new Date().getFullYear()
       Designed by Jeanine White</a>
       <Icon icon='rocketLaunch' size='1.2em' />
     </p>
-    <p>©️ {currentYear} {username}</p>
+    <p>Built with ❤️ by {username} ©️ {currentYear}</p>
   </div>
 
   <p class='socials'>
-    <a href={socials.instagram.url}>{socials.instagram.name}</a>
-    <a href={socials.linkedin.url}>{socials.linkedin.name}</a>
+    <a
+      href={socials.instagram.url}
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      {socials.instagram.name}
+    </a>
   </p>
 </footer>
 
