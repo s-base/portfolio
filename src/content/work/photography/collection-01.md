@@ -63,6 +63,7 @@ Medium - iPhone XR
 ![Picture 25 of collection 1](../../../../public/assets/photography/collection-01/picture-25.webp)
 
 <!-- ![Picture 26 of collection 1](../../../../public/assets/photography/collection-01/picture-26.webp)
+
 ![Picture 27 of collection 1](../../../../public/assets/photography/collection-01/picture-27.webp)
 
 ![Picture 28 of collection 1](../../../../public/assets/photography/collection-01/picture-28.webp)
