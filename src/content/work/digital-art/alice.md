@@ -13,4 +13,4 @@ This was a brief experiment where I tried to draw from reference to the black
 and white picture to develop my understanding of how light and shadows work
 on a face, I named her Alice.
 
-Medium- Krita
+Medium - Krita
