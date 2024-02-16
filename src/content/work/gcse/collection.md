@@ -2,10 +2,10 @@
 description: This is a collection of my GCSE work.
 featured: true
 img: /portfolio/assets/gcse/picture-1.webp
-img_alt: Picture part of a collection within gcse section
+img_alt: Pictures part of a collection within GCSE section
 publishDate: 2020-02-16 00:19:00
 sectionTitle: GCSE
-title: Collection
+title: GCSE
 tags:
   - GCSE
   - Physical Art
