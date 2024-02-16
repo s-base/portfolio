@@ -24,4 +24,7 @@ The quote says
 > that not only the most common destructive addictions there are more concealed
 > addictions like craving any validation from others.
 
+I wanted to show that not only the most common destructive addictions exist.
+There are more concealed addictions like craving any validation from others.
+
 Medium- Krita
