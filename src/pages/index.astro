@@ -38,10 +38,10 @@ const projects = (await getCollection('work'))
         </Hero>
 
         <img
-          alt=`${username} portrait`
-          width='480'
+          alt=`${username}'s logo`
+          src=`${assets}/logo.png`
           height='620'
-          src=`${assets}/portrait.jpg`
+          width='480'
         />
       </header>
     </div>
@@ -115,7 +115,7 @@ const projects = (await getCollection('work'))
     }
 
     .hero img {
-      aspect-ratio: 3 / 4;
+      aspect-ratio: auto;
       border-radius: 4.5rem;
       object-fit: cover;
     }
@@ -144,7 +144,7 @@ const projects = (await getCollection('work'))
     top: 0;
     transform: translateY(-75%) translateX(-50%);
     background:
-      url('/assets/backgrounds/noise.png') top center/220px repeat,
+      url('/portfolio/assets/backgrounds/noise.png') top center/220px repeat,
       var(--hero-bg) center center / var(--bg-gradient-size) no-repeat,
       var(--gray-999);
     background-blend-mode: overlay, normal, normal, normal;
