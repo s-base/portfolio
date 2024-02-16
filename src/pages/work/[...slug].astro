@@ -34,6 +34,7 @@ const { Content } = await entry.render()
       <header>
         <div class='wrapper stack gap-2'>
           <a class='back-link' href={urls.work}><Icon icon='arrowLeft' /> Work</a>
+
           <Hero title={entry.data.title} align='start'>
             <div class='details'>
               <div class='tags'>
@@ -44,19 +45,27 @@ const { Content } = await entry.render()
           </Hero>
         </div>
       </header>
+
       <main class='wrapper'>
         <div class='stack gap-10 content'>
           {
-            entry.data.img && (
-              <img src={entry.data.img} alt={entry.data.img_alt || ''} />
+            entry.data.video ? (
+              <video controls loop aria-label={entry.data.img_alt}>
+                <source src={entry.data.video} type='video/mp4' />
+                Your browser does not support the video tag.
+              </video>
+            ) : (
+              <img src={entry.data.img} alt={entry.data.img_alt} />
             )
           }
+
           <div class='content'>
             <Content />
           </div>
         </div>
       </main>
     </div>
+
     <ContactCTA />
   </div>
 </BaseLayout>

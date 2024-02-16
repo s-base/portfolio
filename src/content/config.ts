@@ -6,11 +6,12 @@ export const collections = {
     schema: z.object({
       description: z.string(),
       featured: z.boolean().optional(),
-      img_alt: z.string().optional(),
       img: z.string(),
+      img_alt: z.string(),
       publishDate: z.coerce.date(),
       tags: z.array(z.string()),
       title: z.string(),
+      video: z.string().optional(),
     })
   })
 }
