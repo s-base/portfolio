@@ -1,6 +1,6 @@
 ---
 description: This is a WIP Skull that represents a greater evil.
-img: /portfolio/assets/digital-art/skull.png
+img: /sofia_bautista_sepulveda_IDD_portfolio/assets/digital-art/skull.png
 img_alt: Digital art about representing how we hide who ww truly are, done with Krita
 publishDate: 2020-02-16 00:16:00
 title: Skull

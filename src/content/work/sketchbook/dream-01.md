@@ -1,6 +1,6 @@
 ---
 description: This work is a collection of different creatures I have created.
-img: /portfolio/assets/sketchbook/dream-01.png
+img: /sofia_bautista_sepulveda_IDD_portfolio/assets/sketchbook/dream-01.png
 img_alt: Physical art done with pencil
 publishDate: 2020-02-16 00:19:00
 title: Dream 1

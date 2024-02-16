@@ -1,7 +1,7 @@
 ---
 description: This was a trilogy of works on pink Post-it notes.
 featured: true
-img: /portfolio/assets/sketchbook/posting.png
+img: /sofia_bautista_sepulveda_IDD_portfolio/assets/sketchbook/posting.png
 img_alt: Physical art done with post-it notes
 publishDate: 2020-02-16 00:18:00
 sectionTitle: Sketchbook

@@ -1,6 +1,6 @@
 ---
 description: Fictional Spiderman character.
-img: /portfolio/assets/digital-art/did-you-hear-me.png
+img: /sofia_bautista_sepulveda_IDD_portfolio/assets/digital-art/did-you-hear-me.png
 img_alt: Digital art about fictional spiderman character done with Krita
 publishDate: 2020-02-16 00:09:00
 title: Did you hear me

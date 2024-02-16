@@ -1,6 +1,6 @@
 ---
 description: Experiment about black and white.
-img: /portfolio/assets/digital-art/alice.png
+img: /sofia_bautista_sepulveda_IDD_portfolio/assets/digital-art/alice.png
 img_alt: Digital art about addiction done with Krita
 publishDate: 2020-02-16 00:05:00
 title: Alice

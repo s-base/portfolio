@@ -1,6 +1,6 @@
 ---
 description: This is a WIP based on a series of books called Scythe.
-img: /portfolio/assets/digital-art/scythe.png
+img: /sofia_bautista_sepulveda_IDD_portfolio/assets/digital-art/scythe.png
 img_alt: Digital art about a series of books called Scythe done with Krita
 publishDate: 2020-02-16 00:14:00
 title: Scythe

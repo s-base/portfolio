@@ -1,9 +1,9 @@
 ---
 description: This is a collection of my GCSE work.
 featured: true
-img: /portfolio/assets/gcse/picture-1.webp
+img: /sofia_bautista_sepulveda_IDD_portfolio/assets/gcse/picture-1.webp
 img_alt: Pictures part of a collection within GCSE section
-publishDate: 2020-02-16 00:19:00
+publishDate: 2020-02-16 00:20:00
 sectionTitle: GCSE
 title: GCSE
 tags:

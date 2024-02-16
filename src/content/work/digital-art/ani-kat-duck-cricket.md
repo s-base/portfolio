@@ -1,12 +1,12 @@
 ---
 description: This was the first animation I have ever attempted.
 featured: true
-img: /portfolio/assets/digital-art/ani-kat-duck-cricket.png
+img: /sofia_bautista_sepulveda_IDD_portfolio/assets/digital-art/ani-kat-duck-cricket.png
 img_alt: Animation of a cat done with Krita
 publishDate: 2020-02-16 00:01:00
 sectionTitle: Digital Art
 title: Ani Kat Duck Cricket
-video: /portfolio/assets/digital-art/ani-kat-duck-cricket.mp4
+video: /sofia_bautista_sepulveda_IDD_portfolio/assets/digital-art/ani-kat-duck-cricket.mp4
 tags:
   - Animation
   - Digital Art

@@ -1,7 +1,7 @@
 ---
 description: This is a collection of my own attempt with photography.
 featured: true
-img: /portfolio/assets/photography/collection-01/picture-1.webp
+img: /sofia_bautista_sepulveda_IDD_portfolio/assets/photography/collection-01/picture-1.webp
 img_alt: Picture part of a collection within photography section
 publishDate: 2020-02-16 00:19:00
 sectionTitle: Photography
