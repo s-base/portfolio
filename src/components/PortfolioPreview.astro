@@ -3,14 +3,14 @@ import { urls } from '../constants'
 import type { CollectionEntry } from 'astro:content'
 
 interface Props {
-  isMainSection?: boolean
+  sectionTitle?: string
   project: CollectionEntry<'work'>
 }
 
 const { data, slug } = Astro.props.project
-const isMainSection = Astro.props.isMainSection || false
+const isMainSection = Astro.props.sectionTitle || false
 const parsedSlug = isMainSection ? slug.split('/').at(0) : slug
-const parsedTitle = isMainSection ? data.tags[0].split(',')[0] : data.title
+const parsedTitle = isMainSection ? data.sectionTitle : data.title
 ---
 
 <a class='card' href={`${urls.work}${parsedSlug}`}>

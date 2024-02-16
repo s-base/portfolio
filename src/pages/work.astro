@@ -10,7 +10,7 @@ import Hero from '../components/Hero.astro'
 import Grid from '../components/Grid.astro'
 
 const projects = (await getCollection('work'))
-  .filter(project => project.data.featured)
+  .filter(project => project.data.sectionTitle)
 ---
 
 <BaseLayout
@@ -29,7 +29,7 @@ const projects = (await getCollection('work'))
         {
           projects.map(project => (
             <li>
-              <PortfolioPreview project={project} isMainSection={true}/>
+              <PortfolioPreview project={project} sectionTitle={project.data.sectionTitle}/>
             </li>
           ))
         }
