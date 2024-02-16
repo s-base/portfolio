@@ -1,6 +1,6 @@
 ---
 description: Work representing how we hide who ww truly are.
-img: /sofia_bautista_sepulveda_IDD_portfolio/assets/digital-art/self-confinement.png
+img: /portfolio/assets/digital-art/self-confinement.png
 img_alt: Digital art about representing how we hide who ww truly are, done with Krita
 publishDate: 2020-02-16 00:15:00
 title: Self-confinement

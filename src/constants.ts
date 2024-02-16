@@ -9,7 +9,7 @@ export const socials: { [key: string]: Social } = {
     url: 'https://www.instagram.com/th1i.bea/',
   }
 }
-export const base: string = '/sofia_bautista_sepulveda_IDD_portfolio'
+export const base: string = '/portfolio'
 export const assets: string = `${base}/assets`
 export const email: string = 's.bautista.sepulveda+portfolio@gmail.com'
 export const urls: { [key: string]: string } = {

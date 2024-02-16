@@ -1,11 +1,11 @@
 ---
 description: Animation of a young girl in a bathroom.
 featured: true
-img: /sofia_bautista_sepulveda_IDD_portfolio/assets/digital-art/it-is-you.png
+img: /portfolio/assets/digital-art/it-is-you.png
 img_alt: Animation of a young girl in a bathroom done with Krita
 publishDate: 2020-02-16 00:02:00
 title: It's you
-video: /sofia_bautista_sepulveda_IDD_portfolio/assets/digital-art/it-is-you.mp4
+video: /portfolio/assets/digital-art/it-is-you.mp4
 tags:
   - Animation
   - Digital Art

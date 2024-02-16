@@ -1,6 +1,6 @@
 ---
 description: Mood page expressing conflicting elements.
-img: /sofia_bautista_sepulveda_IDD_portfolio/assets/digital-art/conflicting-elements.png
+img: /portfolio/assets/digital-art/conflicting-elements.png
 img_alt: Digital art about conflicting elements done with Krita
 publishDate: 2020-02-16 00:07:00
 title: Conflicting Elements

@@ -1,6 +1,6 @@
 ---
 description: I aimed to visualise how I view addiction.
-img: /sofia_bautista_sepulveda_IDD_portfolio/assets/digital-art/addiction.png
+img: /portfolio/assets/digital-art/addiction.png
 img_alt: Digital art about addiction done with Krita
 publishDate: 2020-02-16 00:04:00
 title: Addiction

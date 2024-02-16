@@ -1,7 +1,7 @@
 ---
 description: Digital art about anarchy.
 featured: true
-img: /sofia_bautista_sepulveda_IDD_portfolio/assets/digital-art/anarchy.png
+img: /portfolio/assets/digital-art/anarchy.png
 img_alt: Digital art about anarchy done with Krita
 publishDate: 2020-02-16 00:03:00
 title: Anarchy

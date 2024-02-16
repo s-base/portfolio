@@ -1,6 +1,6 @@
 ---
 description: Fictional character from the Marauders era
-img: /sofia_bautista_sepulveda_IDD_portfolio/assets/digital-art/dorcas.png
+img: /portfolio/assets/digital-art/dorcas.png
 img_alt: Digital art about fictional character from the Marauders era done with Krita
 publishDate: 2020-02-16 00:10:00
 title: Dorcas

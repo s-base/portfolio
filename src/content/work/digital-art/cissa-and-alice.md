@@ -1,6 +1,6 @@
 ---
 description: Collection of head shots.
-img: /sofia_bautista_sepulveda_IDD_portfolio/assets/digital-art/cissa-and-alice.png
+img: /portfolio/assets/digital-art/cissa-and-alice.png
 img_alt: Digital art about collection of head shots done with Krita
 publishDate: 2020-02-16 00:06:00
 title: Cissa and Alice

@@ -1,6 +1,6 @@
 ---
 description: Stack in a loop.
-img: /sofia_bautista_sepulveda_IDD_portfolio/assets/digital-art/self-image.png
+img: /portfolio/assets/digital-art/self-image.png
 img_alt: Digital art about stack in a loop done with Krita
 publishDate: 2020-02-16 00:17:00
 title: Self-image
